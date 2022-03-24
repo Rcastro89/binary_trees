@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * find_max - Functiont that say if a node exist.
+ * max - Functiont that say if a node exist.
  * @left: number of brothers left.
  * @right: number of brothers right.
  * Return: side with more siblings.
@@ -14,7 +14,7 @@ size_t max(int left, int right)
 }
 
 /**
- * find_height - Recursive function that count returns the length
+ * height - Recursive function that count returns the length
  * of the longest branch of a tree
  * @tree: Parent node.
  * Return: Heigth of single nodes plus one.
